@@ -20,8 +20,8 @@ def Tinh_Toan(Day, Month, Year, Hour, Minute, Second):
     for i in range(int(Month)+1,13):
         Sum+=(Dict_Phu[i]*24*60*60)
     return Sum, Tong_Ngay
-Tong_TG_BD, Tong1 = Tinh_Toan(*Time_Begin)
-Tong_TG_KT, Tong2 = Tinh_Toan(*Time_End)
-Tong_Thoi_Gian=Tong2*24*60*60-Tong_TG_KT+Tong_TG_BD 
+Tong_Time_Begin, Tong1 = Tinh_Toan(*Time_Begin)
+Tong_Time_End, Tong2 = Tinh_Toan(*Time_End)
+Tong_Thoi_Gian=Tong2*24*60*60-Tong_Time_End+Tong_Time_Begin
 print(Tong_Thoi_Gian)
 #luu y: Tong_Thoi_Gian la thoi gian da doi ra giay
