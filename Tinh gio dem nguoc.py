@@ -1,4 +1,6 @@
 #ap dung cong thuc tinh nam nhuan de tim thoi gian dem nguoc
+import datetime
+import time
 Nam={1:31, 2:28, 3:31, 4:30, 5:31, 6:30, 7:31, 8:31, 9:30, 10:31, 11:30, 12:31}
 Time_Begin=[9,11,2021,23,25,31] 
 Time_End=[9,12,2021,8,27,37]
