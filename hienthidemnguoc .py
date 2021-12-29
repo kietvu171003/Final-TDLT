@@ -15,3 +15,5 @@ while Tong_Thoi_Gian>=0:
     time.sleep(1)
     print(a)
     Tong_Thoi_Gian-=1
+    #neu nhu la dem len se khong co cong thuc tinh dem nguoc, chỉ co phan hien thi va doi Tong_Thoi_Gian+=1
+    
